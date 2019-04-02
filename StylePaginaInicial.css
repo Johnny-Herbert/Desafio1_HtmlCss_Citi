@@ -60,3 +60,32 @@ footer
 {
     padding-top: 10px;
 }
+.icone:hover
+{
+    opacity: 0.5;
+}
+/* Div da imagem e das informações */
+#divInformacoes
+{
+    display: flex;
+    margin:40px;
+}
+#imgDescricao
+{
+    width: 350px;
+    height: 235px;
+    border:10px solid black;
+}
+#divDescricao
+{
+    text-align: center;
+    width: 100%;
+    color:rgb(139, 0, 0);
+     
+}
+#descricao
+{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 15pt;
+}
