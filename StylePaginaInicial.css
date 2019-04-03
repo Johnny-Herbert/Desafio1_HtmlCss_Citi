@@ -1,7 +1,13 @@
+@font-face
+{
+    font-family: Poppins;
+    src: url("Fontes/Poppins/Poppins-Medium.ttf")
+}
+
 body
 {
     margin: 0px;
-    background-color: gainsboro;
+    background-color: #fffdd0;
 }
 
 /* Navegação do header */
@@ -23,10 +29,11 @@ body
     padding: 0px;
     display: flex;
     height: 100px;
+    font-family: Poppins;
 }
 .itemNav
 {
- padding-top: 35px;
+ padding-top: 30px;
  background-color: brown;   
  width: 33.3%;
  text-align: center;
@@ -35,6 +42,14 @@ body
 {
     margin-left: 1px;
     margin-right: 1px; 
+}
+.tracoNav
+{
+    border-radius: 10%;
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    margin-left: 26%;
 }
 /* ------------------------------------------------------ */
 footer
@@ -69,23 +84,53 @@ footer
 {
     display: flex;
     margin:40px;
+    font-family: Poppins;
 }
 #imgDescricao
 {
     width: 350px;
     height: 235px;
     border:10px solid black;
+    margin-top: 20px;
 }
 #divDescricao
 {
     text-align: center;
     width: 100%;
     color:rgb(139, 0, 0);
-     
 }
 #descricao
 {
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 35px;
     font-size: 15pt;
+}
+#tituloDescricao
+{
+    margin-bottom: 0px;
+}
+.tracoTituloDescricao
+{
+    border-radius: 10%;
+    background-color: black;
+    width: 600px;
+    height: 2px;
+    margin-left: 15%;
+}
+/* /-------------------------------------- */
+#bola
+{
+    border-radius: 50%;
+    background-color: brown;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    margin-left: 45%;
+}
+#preco
+{
+    font-family: Poppins;
+    color: white;
+    font-size: 20pt;
+    padding-top: 30px;
 }
