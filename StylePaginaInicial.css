@@ -58,6 +58,7 @@ footer
     position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
 }
 /* Navegação do footer */
 #navIcones
@@ -133,4 +134,14 @@ footer
     color: white;
     font-size: 20pt;
     padding-top: 30px;
+}
+#divFraseFooter
+{
+    color: white;
+    font-family: Poppins;
+    font-size: 15pt;
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 30px;
+    right: 0;
 }
